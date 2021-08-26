@@ -1,0 +1,52 @@
+body {
+  margin: 0.5rem;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  border: white solid 5px;
+  background-color: white;
+  border: 10px solid black;
+  padding: 3px;
+  cursor: pointer;
+}
+
+.panel-main img,
+.mikrografies img {
+  width: 100%;
+  height: auto;
+}
+
+.mikrografies {
+  display: flex;
+  min-width: 100%;
+  min-height: 200px;
+  overflow-x: auto;
+}
+
+.mikrografies img {
+  min-width: 200px;
+  margin: 5px;
+  opacity: 1;
+}
+
+img.activeThumb {
+  opacity: 0.5;
+}
+
+.koubia {
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+#nea_photo,
+#proigumeni_photo,
+#epomeni_photo {
+  background-color: rgb(136, 158, 131);
+  border: none;
+  color: white;
+  margin: 8px;
+}
