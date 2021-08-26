@@ -1,2 +1,2 @@
 # Javascript-exercises
-various small projects in Javascript, Html, Css
+various small projects in Javascript, HTML, CSS
